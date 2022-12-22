@@ -133,7 +133,6 @@ img {
 }
 
 .pÜbermich{
-    background-color: blue;
     font-size: 8rem;
 }
 
@@ -163,6 +162,6 @@ nav2 a{
 }
 
 nav2 a:nth-of-type(1){
-    background-image: url("../img/github.png");
+    background-image: url("../img/kisspng-blue-text-symbol-aqua-metroui-apps-visualstudio-alt-5ab0f2d18c6634.4295317915215459375751.png");
     width:  50px;
 }
