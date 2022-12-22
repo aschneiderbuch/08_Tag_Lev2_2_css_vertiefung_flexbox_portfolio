@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,13 @@
     <title>08_Tag_Lev2_2_css_vertiefung_flexbox_portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
 
         <h1>Andy Schneider</h1>
 
-        <nav >
+        <nav>
             <a class="alink ubermich " href="./assets/html/Über mich.html">Über mich</a>
             <a class="alink skills" href="./assets/html/Skills.html">Skills</a>
             <a class="alink werdegang" href="./assets/html/Werdegang.html">Werdegang</a>
@@ -20,44 +22,47 @@
             <a class="alink kontakt" href="./assets/html/Kontakt.html">Kontakt</a>
 
         </nav>
-        
+
     </header>
 
-<main>
-    <section>
-        <article class="articelWillkommen">
-            <div class="divWillkommen">
-            <p>Willkommen</p>
-            <h2>Ich bin ein Schneider</h2>
-            <p>Frontend Developer</p>
-            <a class="kontakt" href="#">Download CV</a>
-        </div>
-        <img src="./assets/img/967-200x200.jpg" alt="Bild Bewerbungsfoto">
-    </article>
+    <main>
+        <section>
+            <article>
+                <div class=" breiteFlex divWillkommen">
+                    <p>Willkommen</p>
+                    <h2>Ich bin ein Schneider</h2>
+                    <p>Frontend Developer</p>
+                    <a class="kontakt" href="#">Download CV</a>
+                </div>
+                <img class="breiteFlex" src="./assets/img/967-200x200.jpg" alt="Bild Bewerbungsfoto">
+            </article>
 
 
-        <article>
-            <p>Über mich</p>
-            <div class="iconsLink">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, consequatur quos, aperiam maiores quo obcaecati sint provident natus magnam libero culpa ad sit optio harum perferendis, similique illo alias. Minima!</p>
-            <nav>
-                <a href="https://github.com/aschneiderbuch">GitHub</a>
-                <a href="#">LinkdIn</a>
-                <a href="#">?</a>
-            </nav>
-        </div>
+            <article>
+                <p class="breiteFlex2 pÜbermich" > <span1> Über</span1> <span2> mich</span2></p>
+                <div class=" breiteFlex2 iconsLink">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, consequatur quos, aperiam maiores
+                        quo obcaecati sint provident natus magnam libero culpa ad sit optio harum perferendis, similique
+                        illo alias. Minima!</p>
+                    <nav2>   <!-- nav2 sonst spricht style von nav im header hier auch an -->
+                        <a href="https://github.com/aschneiderbuch">GitHub</a>
+                        <a href="#">LinkdIn</a>
+                        <a href="#">?</a>
+                    </nav2>
+                </div>
 
-        </article>
+            </article>
 
-    </section>
-
-
-
-
+        </section>
 
 
-</main>
+
+
+
+
+    </main>
 
 
 </body>
+
 </html>

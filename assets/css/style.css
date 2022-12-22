@@ -45,7 +45,7 @@ h1 {
     color: rgb(201, 132, 16);
 }
 
-nav {
+header nav {
     margin-right: 2rem;
     width: 30rem;
     display: flex;
@@ -53,7 +53,7 @@ nav {
     align-items: baseline;
 }
 
-nav a {
+header nav a {
     color: blue;
     text-decoration: none;
     /*     margin-right: 2rem; */
@@ -77,47 +77,79 @@ section {
     margin-top: 2rem;
 }
 
-.articleWillkommen {}
 
 article {
     display: flex;
     justify-content: space-around;
 }
 
-.divWillkommen {
-    background-color: blue;
-    width: 20rem;
+.breiteFlex {
+    width: 30vw;
+    padding: 2rem;
 }
+
+
 
 .divWillkommen p {
-    background-color: yellow;
     text-transform: uppercase;
     color: blue;
-/*     margin: 0.5rem 0;
- */
     font-family: Nanum Cothic, sans-serif;
     font-size: 0.7rem;
-    padding-right: 4rem;
+    margin-bottom: 2rem;
 }
 
+.divWillkommen p:first-child {
+    margin-top: 4rem;
+}
+
+.divWillkommen p:first-child::before {
+    content: " → ";
+    /* ? wie kann man den Pfeil länge ziehen? */
+}
 
 .divWillkommen h2 {
-    background-color: orange;
-    font-size: 1rem;
+    font-size: 3rem;
+    margin: -0.2rem 0 1rem 0;
+    /* ? wie kann man - margin besser machen ? */
 }
+
+
 
 .divWillkommen a {
     text-decoration: none;
+    margin-top: 2rem;
 }
 
 img {
-    width: 20rem;
-    background-color: green;
-    margin: 2rem;
     box-shadow: 1rem 1rem 1rem yellow;
 }
 
 
+/* articel 2 */
+
+.breiteFlex2{
+    width: 30vw;
+    margin-top: 5rem;
+}
+
+.pÜbermich{
+    background-color: blue;
+    font-size: 8rem;
+}
+
+.pÜbermich span1{
+    display: block;
+    text-align: left;
+}
+
+.pÜbermich span2{
+    display: block;
+    text-align: right;
+}
 
 
+
+.iconsLink{
+    background-color: green;
+}
 
