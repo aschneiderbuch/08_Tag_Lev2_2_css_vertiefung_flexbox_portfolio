@@ -1,11 +1,109 @@
-*{
+/* 
+
+font-family: Radio Canada, sans-serif;
+
+*/
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 16px;
-    scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: Radio Canada;
+    src: url("../fonts/Radio_Canada/RadioCanada-Italic-VariableFont_wdth\,wght.ttf");
+}
+
+/* 
+h1{
+font-family: Radio Canada, sans-serif;
+font-size: 1.2rem;
+color: orange;
+margin: 1rem;
+}
+
+.sectionheader {
+    background-color: rgb(75, 75, 111);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.nav{
+    margin-right: 2rem;
+    background-color: brown;
+}
+
+.alink{
+    background-color: green;
+    margin-left: 
+
+    
+    text-decoration: none;
+    color: black;
+    font-family: Radio Canada, sans-serif;
+    font-size: 0.9em;
+
+}
+
+.kontakt{
+    background-color: orange;
+    border-radius: 3rem;
+    color: white;
+    text-align: center;
+    padding-left: 1rem;
+    border: 0.2rem solid black;
+    display: flexbox;
+}
+
+h1 breite geben
+
+ */
+
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-family: Radio Canada, sans-serif;
+    margin:  1rem 0 0 3rem;
+    color: rgb(201, 132, 16);
+}
+
+nav{
+    margin-right: 2rem;
+    width: 30rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+/*     margin-right: 2rem; */
+/* so geht der Abstandstand zwischen allen a   - aber mit flex versuchen */
+}
+
+.kontakt{
+    background-color: orange;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    box-shadow: 0.2rem 0.2rem 0.9rem green;
+}
+.kontakt:hover{
+    color: rgb(73, 169, 73);
+}
