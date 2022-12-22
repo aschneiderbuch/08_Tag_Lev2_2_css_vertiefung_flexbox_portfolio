@@ -1,11 +1,14 @@
 /* 
 
+.alink
 font-family: Radio Canada, sans-serif;
 
+.willkommen p
+font-family: Nanum Cothic, sans-serif; 
+
+
 */
-
-
-* {
+Nanum Cothic * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,52 +23,13 @@ html {
     src: url("../fonts/Radio_Canada/RadioCanada-Italic-VariableFont_wdth\,wght.ttf");
 }
 
-/* 
-h1{
-font-family: Radio Canada, sans-serif;
-font-size: 1.2rem;
-color: orange;
-margin: 1rem;
+@font-face {
+    font-family: Nanum Cothic;
+    src: url("../fonts/Nanum_Gothic/NanumGothic-Bold.ttf");
 }
 
-.sectionheader {
-    background-color: rgb(75, 75, 111);
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
 
-}
 
-.nav{
-    margin-right: 2rem;
-    background-color: brown;
-}
-
-.alink{
-    background-color: green;
-    margin-left: 
-
-    
-    text-decoration: none;
-    color: black;
-    font-family: Radio Canada, sans-serif;
-    font-size: 0.9em;
-
-}
-
-.kontakt{
-    background-color: orange;
-    border-radius: 3rem;
-    color: white;
-    text-align: center;
-    padding-left: 1rem;
-    border: 0.2rem solid black;
-    display: flexbox;
-}
-
-h1 breite geben
-
- */
 
 
 header {
@@ -77,26 +41,26 @@ header {
 
 h1 {
     font-family: Radio Canada, sans-serif;
-    margin:  1rem 0 0 3rem;
+    margin: 1rem 0 0 3rem;
     color: rgb(201, 132, 16);
 }
 
-nav{
+nav {
     margin-right: 2rem;
     width: 30rem;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: baseline;
 }
 
-nav a{
+nav a {
     color: blue;
     text-decoration: none;
-/*     margin-right: 2rem; */
-/* so geht der Abstandstand zwischen allen a   - aber mit flex versuchen */
+    /*     margin-right: 2rem; */
+    /* so geht der Abstandstand zwischen allen a   - aber mit flex versuchen */
 }
 
-.kontakt{
+.kontakt {
     background-color: orange;
     color: white;
     font-size: 1.3rem;
@@ -104,25 +68,54 @@ nav a{
     padding: 0.2rem 1rem 0.2rem 1rem;
     box-shadow: 0.2rem 0.2rem 0.9rem green;
 }
-.kontakt:hover{
+
+.kontakt:hover {
     color: rgb(73, 169, 73);
 }
 
-section{
+section {
     margin-top: 2rem;
-    }
+}
 
-    .willkommen{
-        background-color: blue;
-        width: 20rem;
-    }
+.articleWillkommen {}
 
-    img{
-        background-color: green;
-        width: 20rem;
-    }
+.willkommen {
+    background-color: blue;
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
 
-article{
+
+
+}
+
+.willkommen p {
+    background-color: yellow;
+    text-transform: uppercase;
+    color: blue;
+/*     margin: 0.5rem 0;
+ */
+    font-family: Nanum Cothic, sans-serif;
+    font-size: 0.7rem;
+    padding-right: 4rem;
+}
+
+.willkommen h2 {
+    background-color: orange;
+    font-size: 3rem;
+}
+
+.willkommen a {
+    text-decoration: none;
+}
+
+img {
+    background-color: green;
+    width: 20rem;
+}
+
+article {
     display: flex;
     justify-content: space-around;
 }
