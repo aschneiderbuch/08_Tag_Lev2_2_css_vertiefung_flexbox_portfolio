@@ -98,13 +98,17 @@ article {
     margin-bottom: 2rem;
 }
 
-.divWillkommen p:first-child {
-    margin-top: 4rem;
+.textWillkommen {
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 
-.divWillkommen p:first-child::before {
+.textWillkommen:before {
     content: " → ";
     /* ? wie kann man den Pfeil länge ziehen? */
+
+    /* *  oder das ins html ?                      <svg height="5" width="50">
+      *                 <line x1="0" y1="0" x2="50" y2="0" style="stroke:rgb(41, 41, 192);stroke-width:2" /> */
 }
 
 .divWillkommen h2 {
