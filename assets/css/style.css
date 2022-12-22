@@ -79,18 +79,17 @@ section {
 
 .articleWillkommen {}
 
-.willkommen {
-    background-color: blue;
-    width: 20rem;
+article {
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 1rem;
-
-
-
+    justify-content: space-around;
 }
 
-.willkommen p {
+.divWillkommen {
+    background-color: blue;
+    width: 20rem;
+}
+
+.divWillkommen p {
     background-color: yellow;
     text-transform: uppercase;
     color: blue;
@@ -101,21 +100,24 @@ section {
     padding-right: 4rem;
 }
 
-.willkommen h2 {
+
+.divWillkommen h2 {
     background-color: orange;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
-.willkommen a {
+.divWillkommen a {
     text-decoration: none;
 }
 
 img {
-    background-color: green;
     width: 20rem;
+    background-color: green;
+    margin: 2rem;
+    box-shadow: 1rem 1rem 1rem yellow;
 }
 
-article {
-    display: flex;
-    justify-content: space-around;
-}
+
+
+
+
