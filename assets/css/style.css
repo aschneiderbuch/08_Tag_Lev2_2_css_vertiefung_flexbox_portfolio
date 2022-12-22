@@ -120,48 +120,70 @@ article {
     margin-top: 2rem;
 }
 
-img {
+
+
+.imgButton {
     box-shadow: 1rem 1rem 1rem yellow;
+
 }
 
 
 /* articel 2 */
 
-.breiteFlex2{
+.breiteFlex2 {
     width: 30vw;
     margin-top: 5rem;
 }
 
-.pÜbermich{
+.pÜbermich {
     font-size: 8rem;
 }
 
-.pÜbermich span1{
+.pÜbermich span1 {
     display: block;
     text-align: left;
 }
 
-.pÜbermich span2{
+.pÜbermich span2 {
     display: block;
     text-align: right;
 }
 
-.iconsLink{
-    background-color: green;
+.iconsLink {
     padding-top: 2rem;
 }
 
-.iconsLink p, nav2{
+.iconsLink p,
+nav2 {
     margin-left: -4rem;
 }
 
-nav2 a{
-    width: 50px;
-    color: rgba(255, 255, 255, 0);
-    background-color: yellow;
+.aTransparent {
+/*     width: 50px;
+ */    color: rgba(255, 255, 255, 0);  /* Schrift transparent durchsichtig gemacht */
 }
 
-nav2 a:nth-of-type(1){
-    background-image: url("../img/kisspng-blue-text-symbol-aqua-metroui-apps-visualstudio-alt-5ab0f2d18c6634.4295317915215459375751.png");
-    width:  50px;
+.nav2{
+    margin-left: -4rem;
 }
+
+.logoicon {
+    width: 50px;
+
+    float: left;
+    margin:0.3rem;
+
+
+}
+
+/* .logoKlickbar {
+    display: block;
+    background-color: red;
+    background-image: url("../img/inkedin.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
