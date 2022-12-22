@@ -147,9 +147,22 @@ img {
     text-align: right;
 }
 
-
-
 .iconsLink{
     background-color: green;
+    padding-top: 2rem;
 }
 
+.iconsLink p, nav2{
+    margin-left: -4rem;
+}
+
+nav2 a{
+    width: 50px;
+    color: rgba(255, 255, 255, 0);
+    background-color: yellow;
+}
+
+nav2 a:nth-of-type(1){
+    background-image: url("../img/github.png");
+    width:  50px;
+}
